@@ -1,4 +1,4 @@
-# Hotel Reservation Application
+# Hotel Reservation Application (CLI)
 
 ## Application Architecture
 **User interface (UI)**, include a main menu for the users who want to book a room, and an admin menu for administrative functions.
