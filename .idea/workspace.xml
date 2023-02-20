@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="adjust the enum to be able get the type">
+    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="complete implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/AdminResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/AdminResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/HotelResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/HotelResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/room/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ReservationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utilities/AdminMenuFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/AdminMenuFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utilities/MainMenuFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/MainMenuFunctions.java" afterDir="false" />
@@ -76,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676886915042</updated>
-      <workItem from="1676886915822" duration="16051000" />
+      <workItem from="1676886915822" duration="16468000" />
     </task>
     <task id="LOCAL-00001" summary="create Room type enumeration">
       <created>1676888044302</created>
@@ -260,14 +259,20 @@
       <option name="project" value="LOCAL" />
       <updated>1676900392770</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="complete implementation">
+      <created>1676902998259</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1676902998259</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create room type enumerations" />
     <MESSAGE value="init Room class" />
     <MESSAGE value="create free room class that extends room class" />
     <MESSAGE value="adjust constructor of room class" />
@@ -292,6 +297,7 @@
     <MESSAGE value="application starter" />
     <MESSAGE value="implement the admin menu with its functions" />
     <MESSAGE value="adjust the enum to be able get the type" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust the enum to be able get the type" />
+    <MESSAGE value="complete implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete implementation" />
   </component>
 </project>
