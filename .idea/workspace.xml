@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="adjust constructor of room class">
-      <change afterPath="$PROJECT_DIR$/src/model/customer/Customer.java" afterDir="false" />
+    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="name and class location adjustments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/IRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/room/IRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Room/FreeRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/room/FreeRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/room/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/customer/Customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -57,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676886915042</updated>
-      <workItem from="1676886915822" duration="2102000" />
+      <workItem from="1676886915822" duration="2776000" />
     </task>
     <task id="LOCAL-00001" summary="create Room type enumeration">
       <created>1676888044302</created>
@@ -94,7 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676888669399</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create Customer class">
+      <created>1676889036718</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676889036718</updated>
+    </task>
+    <task id="LOCAL-00007" summary="name and class location adjustments">
+      <created>1676889094690</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676889094690</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +118,8 @@
     <MESSAGE value="init Room class" />
     <MESSAGE value="create free room class that extends room class" />
     <MESSAGE value="adjust constructor of room class" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust constructor of room class" />
+    <MESSAGE value="create Customer class" />
+    <MESSAGE value="name and class location adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="name and class location adjustments" />
   </component>
 </project>
