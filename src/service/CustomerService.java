@@ -8,13 +8,15 @@ import java.util.Map;
 
 public class CustomerService {
 
-  private static final CustomerService REFERENCE = new CustomerService();
+  private static CustomerService REFERENCE;
   private final Map<String, Customer> customers;
   private CustomerService(){
     customers = new HashMap<>();
   }
 
   public static CustomerService getInstance(){
+    if(REFERENCE == null)
+      REFERENCE = new CustomerService();
     return REFERENCE;
   }
   public void addCustomer(String email, String firstName, String lastName){

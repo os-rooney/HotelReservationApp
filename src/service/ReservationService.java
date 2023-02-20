@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ReservationService {
-  private static final ReservationService REFERENCE = new ReservationService();
+  private static ReservationService REFERENCE;
   private final Map<String, IRoom> rooms;
   private final Map<String, Collection<Reservation>> reservations;
 
@@ -20,6 +20,8 @@ public class ReservationService {
   }
 
   public static ReservationService getInstance(){
+    if(REFERENCE == null)
+      REFERENCE = new ReservationService();
     return REFERENCE;
   }
 
