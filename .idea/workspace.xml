@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/RoomType.java" afterDir="false" />
+    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="create room type enumerations">
+      <change afterPath="$PROJECT_DIR$/src/model/Room/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,11 +54,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676886915042</updated>
-      <workItem from="1676886915822" duration="974000" />
+      <workItem from="1676886915822" duration="1454000" />
     </task>
+    <task id="LOCAL-00001" summary="create Room type enumeration">
+      <created>1676888044302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676888044302</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create room type enumerations">
+      <created>1676888105690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676888105690</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create Room type enumeration" />
+    <MESSAGE value="create room type enumerations" />
+    <option name="LAST_COMMIT_MESSAGE" value="create room type enumerations" />
   </component>
 </project>
