@@ -18,7 +18,7 @@ public class Customer {
   private static final Pattern EMAIL_PATTERN = Pattern.compile(EMAIL_REGEX);
 
   public Customer(String firstName, String lastName, String email){
-    if(EMAIL_PATTERN.matcher(email).matches()){
+    if(!EMAIL_PATTERN.matcher(email).matches()){
       throw new IllegalArgumentException("Invalid email format: " + email);
     }
     this.firstName = firstName;
