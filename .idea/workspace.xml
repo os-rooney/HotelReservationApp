@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="init Room class">
-      <change afterPath="$PROJECT_DIR$/src/model/Room/FreeRoom.java" afterDir="false" />
+    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="adjust constructor of room class">
+      <change afterPath="$PROJECT_DIR$/src/model/customer/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Room/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/IRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/room/IRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Room/FreeRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/room/FreeRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/room/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676886915042</updated>
-      <workItem from="1676886915822" duration="1653000" />
+      <workItem from="1676886915822" duration="2102000" />
     </task>
     <task id="LOCAL-00001" summary="create Room type enumeration">
       <created>1676888044302</created>
@@ -78,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676888390849</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create free room class that extends room class">
+      <created>1676888631147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676888631147</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adjust constructor of room class">
+      <created>1676888669399</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676888669399</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +104,8 @@
     <MESSAGE value="create Room type enumeration" />
     <MESSAGE value="create room type enumerations" />
     <MESSAGE value="init Room class" />
-    <option name="LAST_COMMIT_MESSAGE" value="init Room class" />
+    <MESSAGE value="create free room class that extends room class" />
+    <MESSAGE value="adjust constructor of room class" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust constructor of room class" />
   </component>
 </project>

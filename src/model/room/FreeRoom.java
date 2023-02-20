@@ -1,4 +1,4 @@
-package model.Room;
+package model.room;
 
 import model.enums.RoomType;
 

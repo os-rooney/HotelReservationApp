@@ -1,6 +1,5 @@
-package model.Room;
+package model.room;
 
-import model.IRoom;
 import model.enums.RoomType;
 
 public class Room implements IRoom {
