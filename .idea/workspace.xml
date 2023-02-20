@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="add needed functions to the resource">
+    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="application starter">
       <change afterPath="$PROJECT_DIR$/src/AdminMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/MainMenuFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilities/AdminMenuFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/enums/RoomType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/enums/RoomType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676886915042</updated>
-      <workItem from="1676886915822" duration="11438000" />
+      <workItem from="1676886915822" duration="13419000" />
     </task>
     <task id="LOCAL-00001" summary="create Room type enumeration">
       <created>1676888044302</created>
@@ -221,7 +221,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676896769923</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="implement Main menu function">
+      <created>1676898382051</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676898382051</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Refactor the code and add the functions of main menu starter function in a separate class">
+      <created>1676898508259</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676898508259</updated>
+    </task>
+    <task id="LOCAL-00024" summary="application starter">
+      <created>1676898634418</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676898634418</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +270,9 @@
     <MESSAGE value="Reservation service implementation" />
     <MESSAGE value="adjust access modifier" />
     <MESSAGE value="add needed functions to the resource" />
-    <option name="LAST_COMMIT_MESSAGE" value="add needed functions to the resource" />
+    <MESSAGE value="implement Main menu function" />
+    <MESSAGE value="Refactor the code and add the functions of main menu starter function in a separate class" />
+    <MESSAGE value="application starter" />
+    <option name="LAST_COMMIT_MESSAGE" value="application starter" />
   </component>
 </project>
