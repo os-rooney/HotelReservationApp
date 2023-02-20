@@ -35,7 +35,7 @@ public class MainMenuFunctions {
     Date checkOut = promptAndReadDateInput(scanner);
 
     if (checkIn == null || checkOut == null) {
-      System.out.println("Invalid date format. Please try again.\n");
+      System.err.println("Invalid date format. Please try again.\n");
       return;
     }
 
@@ -43,7 +43,8 @@ public class MainMenuFunctions {
     if (availableRooms.isEmpty()) {
       Collection<IRoom> alternativeRooms = hotelResource.findRoomsForNextAvailableDates(checkIn, checkOut);
       if (alternativeRooms.isEmpty()) {
-        System.out.println("Sorry, there are no rooms available for the selected dates.\n");
+        System.err.println("Sorry, there are no rooms available for the selected dates.\n");
+        listMenuChoices();
       } else {
         System.out.println("Rooms are not available on the selected dates. Here are some alternatives:\n");
         displayRooms(alternativeRooms);
@@ -56,7 +57,7 @@ public class MainMenuFunctions {
     }
   }
 
-  public static Date promptAndReadDateInput(final Scanner scanner) {
+  public static Date promptAndReadDateInput(Scanner scanner) {
     Date date = null;
     boolean validInput = false;
     while (!validInput) {
@@ -64,7 +65,7 @@ public class MainMenuFunctions {
         date = new SimpleDateFormat(DATE_FORMAT).parse(scanner.nextLine());
         validInput = true;
       } catch (ParseException ex) {
-        System.out.println("Error: Invalid date.");
+        System.err.println("Error: Invalid date.");
         System.out.println("Please enter a date in the format " + DATE_FORMAT);
       }
     }
@@ -98,17 +99,17 @@ public class MainMenuFunctions {
           System.out.println("Customer not found.\nYou may need to create a new account.");
         } else {
           System.out.println("What room number would you like to reserve?");
-          final String roomNumber = scanner.nextLine();
+          String roomNumber = scanner.nextLine();
 
           if (rooms.stream().anyMatch(room -> room.getRoomNumber().equalsIgnoreCase(roomNumber))) {
-            final IRoom room = hotelResource.getRoom(roomNumber);
+            IRoom room = hotelResource.getRoom(roomNumber);
 
-            final Reservation reservation = hotelResource
+            Reservation reservation = hotelResource
                 .bookARoom(customerEmail, room, checkInDate, checkOutDate);
             System.out.println("Reservation created successfully!");
             System.out.println(reservation);
           } else {
-            System.out.println("Error: room number not available.\nStart reservation again.");
+            System.err.println("Error: room number not available.\nStart reservation again.");
           }
         }
 
@@ -133,7 +134,7 @@ public class MainMenuFunctions {
     Collection<Reservation> reservations = hotelResource.getCustomersReservations(customerEmail);
 
     if (reservations.isEmpty()) {
-      System.out.println("No reservations found.");
+      System.err.println("No reservations found.");
     } else {
       System.out.println("Your reservations:\n");
       for (Reservation reservation : reservations) {
