@@ -68,7 +68,6 @@ public class AdminMenuFunctions {
 
   private static double promptValidRoomPrice(final Scanner scanner) {
     while (true) {
-      System.out.println("Enter price per night:");
       String input = scanner.nextLine();
       try {
         return Double.parseDouble(input);
