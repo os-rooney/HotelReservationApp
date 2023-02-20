@@ -20,14 +20,14 @@ public class CustomerService {
     return REFERENCE;
   }
   public void addCustomer(String email, String firstName, String lastName){
-
+    customers.put(email, new Customer(firstName, lastName, email));
   }
 
   public Customer getCustomer(String customerEmail){
-    return null;
+    return customers.get(customerEmail);
   }
 
   public Collection<Customer> getAllCustomers(){
-    return null;
+    return customers.values();
   }
 }
