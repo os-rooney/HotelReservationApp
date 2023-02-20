@@ -48,4 +48,11 @@ public class HotelResource {
   public Collection<IRoom> findARoom(Date checkIn, Date checkOut){
     return null;
   }
+
+  public Date addDefaultPlusDays(final Date date) {
+    return reservationService.addDaysToDate(date);
+  }
+  public Collection<IRoom> findRoomsForNextAvailableDates(Date DesiredCheckInDate, Date DesiredCheckOutDate) {
+    return reservationService.findRoomsForNextAvailableDates(DesiredCheckInDate, DesiredCheckOutDate);
+  }
 }
