@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="application starter">
-      <change afterPath="$PROJECT_DIR$/src/AdminMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/AdminMenuFunctions.java" afterDir="false" />
+    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="adjust the enum to be able get the type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/enums/RoomType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/enums/RoomType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/AdminResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/AdminResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/HotelResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/HotelResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/room/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ReservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/AdminMenuFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/AdminMenuFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/MainMenuFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/MainMenuFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676886915042</updated>
-      <workItem from="1676886915822" duration="13419000" />
+      <workItem from="1676886915822" duration="16051000" />
     </task>
     <task id="LOCAL-00001" summary="create Room type enumeration">
       <created>1676888044302</created>
@@ -242,14 +246,27 @@
       <option name="project" value="LOCAL" />
       <updated>1676898634418</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="implement the admin menu with its functions">
+      <created>1676900367484</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1676900367484</updated>
+    </task>
+    <task id="LOCAL-00026" summary="adjust the enum to be able get the type">
+      <created>1676900392770</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676900392770</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create Room type enumeration" />
     <MESSAGE value="create room type enumerations" />
     <MESSAGE value="init Room class" />
     <MESSAGE value="create free room class that extends room class" />
@@ -273,6 +290,8 @@
     <MESSAGE value="implement Main menu function" />
     <MESSAGE value="Refactor the code and add the functions of main menu starter function in a separate class" />
     <MESSAGE value="application starter" />
-    <option name="LAST_COMMIT_MESSAGE" value="application starter" />
+    <MESSAGE value="implement the admin menu with its functions" />
+    <MESSAGE value="adjust the enum to be able get the type" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust the enum to be able get the type" />
   </component>
 </project>
