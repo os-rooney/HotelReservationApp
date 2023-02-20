@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="Create Reservation Class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/customer/Customer.java" afterDir="false" />
+    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="bug fix - Email pattern machter">
+      <change afterPath="$PROJECT_DIR$/src/service/CustomerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676886915042</updated>
-      <workItem from="1676886915822" duration="3265000" />
+      <workItem from="1676886915822" duration="3475000" />
     </task>
     <task id="LOCAL-00001" summary="create Room type enumeration">
       <created>1676888044302</created>
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676890004976</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="bug fix - Email pattern machter">
+      <created>1676890227224</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676890227224</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +156,7 @@
     <MESSAGE value="name and class location adjustments" />
     <MESSAGE value="check email format in Customer constructor if it is valid" />
     <MESSAGE value="Create Reservation Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Reservation Class" />
+    <MESSAGE value="bug fix - Email pattern machter" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix - Email pattern machter" />
   </component>
 </project>
