@@ -46,8 +46,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Application" />
+    <configuration name="HotelApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HotelApplication" />
       <module name="hotelReservation" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -55,7 +55,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.HotelApplication" />
       </list>
     </recent_temporary>
   </component>
