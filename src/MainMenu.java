@@ -18,7 +18,7 @@ public class MainMenu {
           case "1" -> MainMenuFunctions.findAndReserveRoom();
           case "2" -> MainMenuFunctions.viewMyReservations();
           case "3" -> MainMenuFunctions.createCustomerAccount();
-        case "4" -> AdminMenu.startAdminMenu();
+          case "4" -> AdminMenu.startAdminMenu();
           case "5" -> {
             System.out.println("Exiting program...");
             exitFlag = true;

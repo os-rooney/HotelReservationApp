@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="complete implementation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="fix bug - and adjust errors">
       <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/AdminResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/AdminResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/HotelResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/HotelResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ReservationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/AdminMenuFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/AdminMenuFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/MainMenuFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/MainMenuFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676886915042</updated>
-      <workItem from="1676886915822" duration="16468000" />
+      <workItem from="1676886915822" duration="16596000" />
     </task>
     <task id="LOCAL-00001" summary="create Room type enumeration">
       <created>1676888044302</created>
@@ -266,16 +261,41 @@
       <option name="project" value="LOCAL" />
       <updated>1676902998259</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="delete duplicate">
+      <created>1676903409405</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1676903409405</updated>
+    </task>
+    <task id="LOCAL-00029" summary="complete implementation">
+      <created>1676903434550</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1676903434550</updated>
+    </task>
+    <task id="LOCAL-00030" summary="create a function to get all rooms">
+      <created>1676903478285</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1676903478285</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fix bug - and adjust errors">
+      <created>1676903503323</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1676903503323</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init Room class" />
-    <MESSAGE value="create free room class that extends room class" />
-    <MESSAGE value="adjust constructor of room class" />
     <MESSAGE value="create Customer class" />
     <MESSAGE value="name and class location adjustments" />
     <MESSAGE value="check email format in Customer constructor if it is valid" />
@@ -297,7 +317,10 @@
     <MESSAGE value="application starter" />
     <MESSAGE value="implement the admin menu with its functions" />
     <MESSAGE value="adjust the enum to be able get the type" />
+    <MESSAGE value="delete duplicate" />
     <MESSAGE value="complete implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete implementation" />
+    <MESSAGE value="create a function to get all rooms" />
+    <MESSAGE value="fix bug - and adjust errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug - and adjust errors" />
   </component>
 </project>
