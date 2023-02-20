@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="init Admin resource with a static reference">
+    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="Customer service implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ReservationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676886915042</updated>
-      <workItem from="1676886915822" duration="6278000" />
+      <workItem from="1676886915822" duration="8270000" />
     </task>
     <task id="LOCAL-00001" summary="create Room type enumeration">
       <created>1676888044302</created>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676892419697</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Customer service implementation">
+      <created>1676893227257</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676893227257</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +221,7 @@
     <MESSAGE value="adjust the singleton pattern" />
     <MESSAGE value="init Hotel resource with a static reference" />
     <MESSAGE value="init Admin resource with a static reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="init Admin resource with a static reference" />
+    <MESSAGE value="Customer service implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer service implementation" />
   </component>
 </project>
