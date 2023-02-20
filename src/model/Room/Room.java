@@ -8,6 +8,12 @@ public class Room implements IRoom {
   private Double price;
   private RoomType roomType;
 
+  public Room(String roomNumber, Double price, RoomType roomType) {
+    this.roomNumber = roomNumber;
+    this.price = price;
+    this.roomType = roomType;
+  }
+
   @Override
   public String getRoomNumber() {
     return null;
