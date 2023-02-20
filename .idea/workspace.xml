@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="adjust the singleton pattern">
-      <change afterPath="$PROJECT_DIR$/src/api/HotelResource.java" afterDir="false" />
+    <list default="true" id="8445af4e-0825-4fca-9958-a898482b515e" name="Changes" comment="init Hotel resource with a static reference">
+      <change afterPath="$PROJECT_DIR$/src/api/AdminResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676886915042</updated>
-      <workItem from="1676886915822" duration="5152000" />
+      <workItem from="1676886915822" duration="5470000" />
     </task>
     <task id="LOCAL-00001" summary="create Room type enumeration">
       <created>1676888044302</created>
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676891627550</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="init Hotel resource with a static reference">
+      <created>1676892086006</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676892086007</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
     <MESSAGE value="update gitignore" />
     <MESSAGE value="create Reservation service class with collections to store and retrieve a reservation. &#10;Provide a static referernce" />
     <MESSAGE value="adjust the singleton pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust the singleton pattern" />
+    <MESSAGE value="init Hotel resource with a static reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="init Hotel resource with a static reference" />
   </component>
 </project>
