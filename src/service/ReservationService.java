@@ -49,12 +49,12 @@ public class ReservationService {
   }
 
   public Collection<IRoom> findRoomsForNextAvailableDates(Date checkInDate, Date checkOutDate) {
-    Date defaultCheckInDate = addDaysToDate(checkInDate, DEFAULT_DAYS);
-    Date defaultCheckOutDate = addDaysToDate(checkOutDate, DEFAULT_DAYS);
+    Date defaultCheckInDate = addDaysToDate(checkInDate);
+    Date defaultCheckOutDate = addDaysToDate(checkOutDate);
     return findVacantRooms(defaultCheckInDate, defaultCheckOutDate);
   }
 
-  private Collection<IRoom> findVacantRooms(Date checkInDate, Date checkOutDate) {
+  public Collection<IRoom> findVacantRooms(Date checkInDate, Date checkOutDate) {
     Set<IRoom> reservedRooms = getAllReservations().stream()
         .filter(r -> reservationConflictsWithDates(r, checkInDate, checkOutDate))
         .map(Reservation::getRoom)
@@ -65,19 +65,19 @@ public class ReservationService {
         .toList();
   }
 
-  private Date addDaysToDate(Date date, int days) {
+  public Date addDaysToDate(Date date) {
     Calendar calendar = Calendar.getInstance();
     calendar.setTime(date);
-    calendar.add(Calendar.DATE, days);
+    calendar.add(Calendar.DATE, DEFAULT_DAYS);
     return calendar.getTime();
   }
 
-  private boolean reservationConflictsWithDates(Reservation reservation, Date checkInDate, Date checkOutDate) {
+  public boolean reservationConflictsWithDates(Reservation reservation, Date checkInDate, Date checkOutDate) {
     return checkInDate.before(reservation.getCheckOutDate()) &&
         checkOutDate.after(reservation.getCheckInDate());
   }
 
-  private Collection<Reservation> getAllReservations() {
+  public Collection<Reservation> getAllReservations() {
     return reservations.values()
         .stream()
         .flatMap(Collection::stream)
